@@ -21,5 +21,8 @@ Resources
 2. Pathway Commons (http://pathwaycommons.org/)
 3. Shiny (http://shiny.rstudio.com/)
 4. Shiny Dashboard (http://rstudio.github.io/shinydashboard/)
+5. Cytoscape (http://www.cytoscape.org/)
+6. Cytoscape.js (http://js.cytoscape.org/)
+7. R Cytoscape.js (https://github.com/cytoscape/r-cytoscape.js)
 
 We'll try to be as responsive as possible in reviewing and accepting pull requests. We appreciate your contributions very much!
