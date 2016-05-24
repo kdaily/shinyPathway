@@ -2,8 +2,9 @@
 
 Here for the Mozilla Science Global Sprint 2016? Hooray! 
 
-1. Read the [Contributing document](CONTRIBUTING.md).
-2. Check out the [open issues](https://github.com/kdaily/shinyPathway/issues).
+1. Read the [Contributing document](CONTRIBUTING.md)
+1. Read the [Code of Conduct](CODE_OF_CONDUCT.md)
+1. Check out the [open issues](https://github.com/kdaily/shinyPathway/issues)
 
 Introduction
 ------------
