@@ -1,3 +1,6 @@
+Contributing to shinyPathway
+============================
+
 Thinking of contributing to the the Shiny Pathway project? That's great! We'd love to have you.
 
 The simplest way you can join in with this repo is to:
@@ -10,5 +13,13 @@ How to Contribute
 
 1. Fork the repository and make your changes.
 1. Submit a pull request.
+
+Resources
+---------
+
+1. Writing R packages (http://r-pkgs.had.co.nz/)
+2. Pathway Commons (http://pathwaycommons.org/)
+3. Shiny (http://shiny.rstudio.com/)
+4. Shiny Dashboard (http://rstudio.github.io/shinydashboard/)
 
 We'll try to be as responsive as possible in reviewing and accepting pull requests. We appreciate your contributions very much!
