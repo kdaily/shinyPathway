@@ -1,5 +1,7 @@
 # shinyPathway
 
+[![Build Status](https://travis-ci.org/kdaily/shinyPathway.svg?branch=master)](https://travis-ci.org/kdaily/shinyPathway)
+
 Here for the Mozilla Science Global Sprint 2016? Hooray! 
 
 1. Read the [Contributing document](CONTRIBUTING.md)
