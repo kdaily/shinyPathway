@@ -1,3 +1,5 @@
+#' Run the Shiny app.
+#' 
 #' @export
 runExample <- function() {
   appDir <- system.file("shiny", package = "shinyPathway")
