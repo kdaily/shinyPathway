@@ -7,3 +7,7 @@ Maintainer: Kenneth Daily <kenneth.daily@sagebase.org>
 Description: Visualize Pathway Commons Pathways with Shiny
 License: MIT
 LazyData: TRUE
+Imports:
+    shiny,
+    shinydashboard
+RoxygenNote: 5.0.1
