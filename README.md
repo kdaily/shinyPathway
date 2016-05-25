@@ -12,3 +12,17 @@ Introduction
 ------------
 
 Use R [Shiny](https://shiny.rstudio.com) for exploratory analysis of [Pathway Commons](http://www.pathwaycommons.org/) pathways through [r-cytoscape.js](https://github.com/cytoscape/r-cytoscape.js).
+
+Install
+-------
+
+```
+devtools::install_github('kdaily/shinyPathway')
+```
+
+Run the Shiny App
+-----------------
+
+```
+shinyPathway::runExample()
+```
