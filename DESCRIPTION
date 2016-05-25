@@ -1,0 +1,9 @@
+Package: shinyPathway
+Type: Package
+Title: Visualize Pathway Commons Pathways with Shiny
+Version: 0.1.0
+Author: Kenneth Daily
+Maintainer: Kenneth Daily <kenneth.daily@sagebase.org>
+Description: Visualize Pathway Commons Pathways with Shiny
+License: MIT
+LazyData: TRUE
