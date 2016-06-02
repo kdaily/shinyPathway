@@ -4,5 +4,11 @@ library(shinydashboard)
 dashboardPage(
   dashboardHeader(),
   dashboardSidebar(),
-  dashboardBody()
+  dashboardBody(
+    fluidRow(
+      box(
+        rcytoscapejsOutput("plot", height="600px")
+        )
+      )
+  )
 )
