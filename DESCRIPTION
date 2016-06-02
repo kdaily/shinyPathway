@@ -9,5 +9,6 @@ License: MIT
 LazyData: TRUE
 Imports:
     shiny,
-    shinydashboard
+    shinydashboard,
+    paxtoolsr
 RoxygenNote: 5.0.1
