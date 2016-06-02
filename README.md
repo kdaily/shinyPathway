@@ -20,7 +20,12 @@ Use R [Shiny](https://shiny.rstudio.com) for exploratory analysis of [Pathway Co
 Install
 -------
 
+This package has dependencies from [Bioconductor](http://www.bioconductor.org/). It also requires `devtools`.
+
 ```
+setRepositories(ind=1:6)
+options(repos="http://cran.rstudio.com/")
+if(!require(devtools)) { install.packages("devtools") }
 devtools::install_github('kdaily/shinyPathway')
 ```
 
