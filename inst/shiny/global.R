@@ -13,4 +13,3 @@ edgeData <- sifNetwork %>%
 nodes <- unique(c(edgeData$source, edgeData$target))
 
 nodeData <- data.frame(id=nodes, name=nodes, stringsAsFactors=FALSE)
-network <- createCytoscapeJsNetwork(nodeData, edgeData)
