@@ -11,4 +11,6 @@ Imports:
     shiny,
     shinydashboard,
     paxtoolsr
+Remotes:
+    github::cytoscape/r-cytoscape.js
 RoxygenNote: 5.0.1
