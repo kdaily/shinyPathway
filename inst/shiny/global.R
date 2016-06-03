@@ -3,9 +3,18 @@ library(shiny)
 library(paxtoolsr)
 library(rcytoscapejs)
 
-sifNetwork <- toSif(system.file("extdata", 
-                                "biopax3-short-metabolic-pathway.owl",
-                                package = "paxtoolsr"))
+searchResults <- searchPc(q = "glycolysis", type = "pathway")
+
+searchResults <- xpathSApply(searchResults, 
+                             "/searchResponse/searchHit/uri", 
+                             xmlValue)
+
+foo <- getPc(uri = searchResults[67])
+
+biopaxFile <- tempfile()
+saveXML(foo, file=biopaxFile)
+
+sifNetwork <- toSif(inputFile = biopaxFile)
 
 edgeData <- sifNetwork %>% 
   rename(source=PARTICIPANT_A, target=PARTICIPANT_B)
